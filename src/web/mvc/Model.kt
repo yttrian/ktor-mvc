@@ -1,3 +1,5 @@
 package me.ianmooreis.web.mvc
 
-interface Model
+interface Model {
+    object Empty : Model
+}
